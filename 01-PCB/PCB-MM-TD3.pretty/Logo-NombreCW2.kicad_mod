@@ -1,0 +1,11 @@
+(module Logo-NombreCW2 (layer F.Cu) (tedit 63C2038F)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Logo-NombreCW2 (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text user "TD3 - UTNFRA - 2022 - CARLOS WARZYCA" (at -1.27 -3.81) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.2)))
+  )
+)

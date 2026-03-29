@@ -1,0 +1,1766 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5946ea89-d7ce-454e-8c34-4b975ed64ef7")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector:Screw_Terminal_01x04"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x04"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x04_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 2.8702) (xy 0.3302 2.032)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -2.2098) (xy 0.3302 -3.048)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 -4.7498) (xy 0.3302 -5.588)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 3.048) (xy 0.508 2.2098)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -2.032) (xy 0.508 -2.8702)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 -4.572) (xy 0.508 -5.4102)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.08)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(rectangle
+		(start 54.61 29.21)
+		(end 219.71 149.86)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 33ad3e4b-92f6-4eae-8e67-b9bd1a3e1be4)
+	)
+	(rectangle
+		(start 63.5 93.98)
+		(end 71.12 106.68)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b41c7d6-71ca-41d4-b513-0d5058213a64)
+	)
+	(rectangle
+		(start 63.5 119.38)
+		(end 71.12 132.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b73cc630-e808-4d3b-b064-9f3de579c60a)
+	)
+	(rectangle
+		(start 63.5 106.68)
+		(end 71.12 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eb241259-336d-4fef-9817-a7f19dbd5394)
+	)
+	(text "Transformador TI \n400/5"
+		(exclude_from_sim no)
+		(at 67.564 91.948 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f8390d74-34c3-401d-95ad-aa396325c61a")
+	)
+	(junction
+		(at 80.01 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3774abff-b0be-43b9-b76a-764b6f7fd178")
+	)
+	(junction
+		(at 82.55 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "863c33ec-4f78-48db-a4e1-7f81c9b501a6")
+	)
+	(wire
+		(pts
+			(xy 90.17 120.65) (xy 90.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01db34e8-f2f6-47f2-8002-a40e70a7615b")
+	)
+	(wire
+		(pts
+			(xy 82.55 81.28) (xy 95.25 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0421e65a-3083-47bb-9122-2adc567e02d0")
+	)
+	(wire
+		(pts
+			(xy 95.25 120.65) (xy 90.17 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec2076f-208c-4a7d-88fd-f748e55fae19")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ffaa323-8263-468d-b16a-59593d936b0b")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "101cffba-fff7-43fb-a64b-061943046dd6")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 161.29 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11ede1ad-6823-4062-97f4-8c5dd917bd87")
+	)
+	(wire
+		(pts
+			(xy 132.08 74.93) (xy 161.29 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14217944-ba8c-419b-acbc-9cf33e50059a")
+	)
+	(wire
+		(pts
+			(xy 132.08 105.41) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1908e878-8678-400e-9117-3e83aef0a8c0")
+	)
+	(wire
+		(pts
+			(xy 72.39 124.46) (xy 87.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c99a012-d721-45c9-a051-85cf0d6ada9e")
+	)
+	(wire
+		(pts
+			(xy 132.08 87.63) (xy 161.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e900d80-a147-4105-b0ed-a18162e9597e")
+	)
+	(wire
+		(pts
+			(xy 95.25 118.11) (xy 87.63 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32bb559f-4b12-40cd-89a8-3dc122dcc02c")
+	)
+	(wire
+		(pts
+			(xy 95.25 50.8) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f2a36e-36de-4947-839e-4488056eafea")
+	)
+	(wire
+		(pts
+			(xy 72.39 127) (xy 90.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3782e527-029a-47ef-a74e-b3b3775ba879")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 95.25 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adf9c05-3f88-4a17-89d5-aad53b7d0296")
+	)
+	(wire
+		(pts
+			(xy 80.01 76.2) (xy 95.25 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cab9041-093e-4f0a-ab7f-e4177b67cc2e")
+	)
+	(wire
+		(pts
+			(xy 132.08 72.39) (xy 161.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "449e3e61-35aa-460b-860e-87924944376e")
+	)
+	(wire
+		(pts
+			(xy 72.39 78.74) (xy 95.25 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45d88b08-027c-4707-97df-38610b52cd46")
+	)
+	(wire
+		(pts
+			(xy 72.39 114.3) (xy 95.25 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50d596dd-6938-46ca-8054-e5ea8234617e")
+	)
+	(wire
+		(pts
+			(xy 87.63 118.11) (xy 87.63 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "599ff074-0d6e-4808-b0c3-df0ae2fac8f2")
+	)
+	(wire
+		(pts
+			(xy 86.36 101.6) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e446eda-82f6-49cf-bd99-9b4324f5a8c6")
+	)
+	(wire
+		(pts
+			(xy 132.08 118.11) (xy 161.29 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65e32d1d-5afb-40b8-a114-09cc343cbb5c")
+	)
+	(wire
+		(pts
+			(xy 88.9 99.06) (xy 88.9 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edf8abf-4f7b-4452-b2e3-7ddd3552989f")
+	)
+	(wire
+		(pts
+			(xy 72.39 101.6) (xy 86.36 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77531169-8b16-4624-86bb-3b716c81b584")
+	)
+	(wire
+		(pts
+			(xy 132.08 85.09) (xy 161.29 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9574c789-fb07-487f-a5ca-d6c8106553d5")
+	)
+	(wire
+		(pts
+			(xy 72.39 81.28) (xy 82.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97660415-65bb-42b5-9c07-3627cd58c5ab")
+	)
+	(wire
+		(pts
+			(xy 132.08 81.28) (xy 161.29 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1a945b9-0840-4807-84d0-9b8086854b41")
+	)
+	(wire
+		(pts
+			(xy 88.9 104.14) (xy 95.25 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c38da9-8138-41e2-b04d-1d8ac45820bc")
+	)
+	(wire
+		(pts
+			(xy 72.39 111.76) (xy 95.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4827fbe-4864-46d6-b066-5c861a43dcd1")
+	)
+	(wire
+		(pts
+			(xy 132.08 114.3) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c81c08c2-03f5-4b9d-be84-0d2b4a42b539")
+	)
+	(wire
+		(pts
+			(xy 132.08 78.74) (xy 161.29 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba0cd35-26f7-4d66-bca0-9001b954eb98")
+	)
+	(wire
+		(pts
+			(xy 132.08 120.65) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbde9496-ab21-4f4d-b20d-1a268a789313")
+	)
+	(wire
+		(pts
+			(xy 72.39 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee271fc-afd2-4697-b2d8-343542c10033")
+	)
+	(wire
+		(pts
+			(xy 132.08 111.76) (xy 161.29 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d82138f2-03b7-427f-a60a-6823abd05348")
+	)
+	(wire
+		(pts
+			(xy 132.08 107.95) (xy 161.29 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f47c6c09-6875-469d-a724-851a91410769")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 82.55 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f651f5b9-2d79-42a4-be81-64bae6af8ca7")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7787627-7d83-4ada-9ae8-ca4324d178bd")
+	)
+	(wire
+		(pts
+			(xy 72.39 73.66) (xy 95.25 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab08228-e526-40bd-81bc-9fe2a7750cd1")
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 67.31 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42f1ad21-a2ae-437f-a651-d52d8da7d9db")
+		(property "Reference" "J24"
+			(at 67.056 121.158 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 67.31 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b57a7598-a1fe-4fa5-993d-b9f257aa3796")
+		)
+		(pin "2"
+			(uuid "9cb1c145-1186-413d-8561-e103a9cfb2b9")
+		)
+		(instances
+			(project "PCB-MM-TD3"
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 67.31 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "750bd9cd-157d-40b9-b15b-9574a633509d")
+		(property "Reference" "J22"
+			(at 67.056 108.458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 67.31 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "975ceab6-ca49-4756-acaa-c9e9db9347ef")
+		)
+		(pin "2"
+			(uuid "27bd277f-64fe-4cc7-9f1b-fb849b3b4da9")
+		)
+		(instances
+			(project "PCB-MM-TD3"
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x04")
+		(at 67.31 78.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c455059b-759d-436d-b516-cb1f2d3a0850")
+		(property "Reference" "J1"
+			(at 67.31 70.358 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x04"
+			(at 67.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "96494c5e-5851-4217-9051-195f4af7de9d")
+		)
+		(pin "2"
+			(uuid "be9bc100-78cc-4696-b8ab-93c4ce637205")
+		)
+		(pin "1"
+			(uuid "29a21e70-00d0-468a-af4a-3439cd55f194")
+		)
+		(pin "3"
+			(uuid "f8e1ad61-6033-4e07-912a-1357306931dc")
+		)
+		(instances
+			(project ""
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 67.31 101.6 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccf6dfa0-59a3-4351-b006-aa6bbd2ccba6")
+		(property "Reference" "J20"
+			(at 67.056 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 67.31 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c010535-4973-4c45-a019-aebd2db7b909")
+		)
+		(pin "2"
+			(uuid "1c1f45b6-5bc2-4196-a92f-062979c3edd3")
+		)
+		(instances
+			(project "PCB-MM-TD3"
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 161.29 53.34)
+		(size 38.1 73.66)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "00000000-0000-0000-0000-000062e68ddb")
+		(property "Sheetname" "Microcontrolador-ADC"
+			(at 161.29 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Microcontrolador-ADC.kicad_sch"
+			(at 161.544 128.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "AD-In-R+" input
+			(at 161.29 111.76 180)
+			(uuid "a98bc195-6608-4151-a048-858681c786bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-In-R-" input
+			(at 161.29 114.3 180)
+			(uuid "395f8fef-357a-4cab-b09e-e22cbf1e0e15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-In-S+" input
+			(at 161.29 118.11 180)
+			(uuid "f4e8512c-cdb3-4df5-984c-c0f11522384b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-In-S-" input
+			(at 161.29 120.65 180)
+			(uuid "f380e9c7-9626-49c9-bf82-81c8aa9f42a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-In-T+" input
+			(at 161.29 107.95 180)
+			(uuid "918b6d8d-402a-4b78-a7d4-b81ccfa4ffbe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-In-T-" input
+			(at 161.29 105.41 180)
+			(uuid "88f9ef3b-f521-4c4d-ac59-ff35508cc784")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-Vcc-R+" input
+			(at 161.29 87.63 180)
+			(uuid "f3e972fd-a84c-4894-929d-47d57274cab6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-Vcc-R-" input
+			(at 161.29 85.09 180)
+			(uuid "934ded27-84f6-486f-9672-5b0362cfac4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-Vcc-S+" input
+			(at 161.29 81.28 180)
+			(uuid "1fa5f445-e47d-4b67-9b2b-4c724a84d44a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-Vcc-S-" input
+			(at 161.29 78.74 180)
+			(uuid "53e0bef1-0d0b-48f1-a79e-4ea650911436")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-Vcc-T+" input
+			(at 161.29 74.93 180)
+			(uuid "79434e7b-42cf-4cc9-85aa-64cb15d69763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-Vcc-T-" input
+			(at 161.29 72.39 180)
+			(uuid "26ce92cc-4c97-408f-b0c5-31dc0064f4c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S-Cruce-Cero" input
+			(at 161.29 91.44 180)
+			(uuid "d19c325b-1c6d-4488-b7fa-2006810a910f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB-MM-TD3"
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 68.58)
+		(size 36.83 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0b370c2c-e6cc-4c2d-ba53-ddcea9243315")
+		(property "Sheetname" "Sensado de tension"
+			(at 95.25 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensado de tension.kicad_sch"
+			(at 95.25 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN-AC-R" input
+			(at 95.25 73.66 180)
+			(uuid "0bbb4aee-e5ef-474c-aee8-4d400f11c6ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-AC-S" input
+			(at 95.25 76.2 180)
+			(uuid "bd54c82c-291a-4a9d-8630-940dfa3b3975")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN-AC-T" input
+			(at 95.25 78.74 180)
+			(uuid "ff4aad93-06cf-4520-bd2f-91c0e812486d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "NEUTRO" input
+			(at 95.25 81.28 180)
+			(uuid "4fc062e1-e045-4d70-9bee-fc18408c0d6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "S-Cruce-Cero" output
+			(at 132.08 91.44 0)
+			(uuid "9005c938-1600-4258-81dc-5e61bd0a5463")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-Vcc-R+" output
+			(at 132.08 87.63 0)
+			(uuid "0e53b8ca-78af-4221-ae22-9504a9d0bdd4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-Vcc-R-" output
+			(at 132.08 85.09 0)
+			(uuid "8d9736d5-4c78-498f-9c70-2ad0a809b69c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-Vcc-S+" output
+			(at 132.08 81.28 0)
+			(uuid "d7af03d1-27be-48a2-b1f4-7c62cb7acd34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-Vcc-S-" output
+			(at 132.08 78.74 0)
+			(uuid "8b4804a9-8111-453f-a487-9415a3dfc275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-Vcc-T+" output
+			(at 132.08 74.93 0)
+			(uuid "7e453d72-e066-4705-8432-665b106de089")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-Vcc-T-" output
+			(at 132.08 72.39 0)
+			(uuid "443e8dfc-443b-4605-a17e-8b87adb2c213")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB-MM-TD3"
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 101.6)
+		(size 36.83 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "131412d0-ba99-4066-8783-996c5cd377cd")
+		(property "Sheetname" "Sensado Corriente"
+			(at 95.25 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensado Corriente.kicad_sch"
+			(at 95.25 125.0446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "TI-R-1" input
+			(at 95.25 104.14 180)
+			(uuid "f8941afd-9b67-427f-aae6-da27bbb96e1e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TI-R-2" input
+			(at 95.25 106.68 180)
+			(uuid "89e3605b-621b-44f1-8bd1-dcf1406b8118")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TI-S-1" input
+			(at 95.25 111.76 180)
+			(uuid "51bd6165-e831-4609-85fd-239057c27e24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TI-S-2" input
+			(at 95.25 114.3 180)
+			(uuid "3554718e-ff3c-47c5-b195-5586fe4ac595")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TI-T-1" input
+			(at 95.25 118.11 180)
+			(uuid "f1188131-339a-4adb-93db-93e640d3d57a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "TI-T-2" input
+			(at 95.25 120.65 180)
+			(uuid "80429e57-5570-4d92-b2a2-1068c4c63ce8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AD-In-R+" output
+			(at 132.08 111.76 0)
+			(uuid "ba86ecd0-baac-48dd-9ccd-ba4dde18d2ee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-In-R-" output
+			(at 132.08 114.3 0)
+			(uuid "8725ea8f-c3eb-4a4d-893a-94b96f34c6ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-In-S+" output
+			(at 132.08 118.11 0)
+			(uuid "e0f17106-82ed-4016-8386-89205b8ae3b1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-In-S-" output
+			(at 132.08 120.65 0)
+			(uuid "fbfa19b0-2202-4a21-9883-4e880a28ef2b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-In-T+" output
+			(at 132.08 107.95 0)
+			(uuid "6b42f147-9f02-4043-9500-6659f74f9b94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AD-In-T-" output
+			(at 132.08 105.41 0)
+			(uuid "e6100bf0-d975-445e-9011-d2699ad74839")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "PCB-MM-TD3"
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 36.83)
+		(size 36.83 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26784488-6c08-45e0-9991-6cb68c950352")
+		(property "Sheetname" "Tensiones de comando"
+			(at 95.25 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Tensiones de comando.kicad_sch"
+			(at 95.25 60.2746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "NEUTRO" input
+			(at 95.25 50.8 180)
+			(uuid "72f6b76e-37e8-4f7f-857a-0e71f3ba8927")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VAC-S" input
+			(at 95.25 45.72 180)
+			(uuid "9a1ed55b-3d3d-4d58-980e-88adbd41c46b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PCB-MM-TD3"
+				(path "/5946ea89-d7ce-454e-8c34-4b975ed64ef7"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
